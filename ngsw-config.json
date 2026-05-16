@@ -35,9 +35,9 @@
       "name": "photos-api",
       "urls": ["https://picsum.photos/**"],
       "cacheConfig": {
-        "maxSize": 100, 
+        "maxSize": 10, 
         "maxAge": "1h",
-        "timeout": "2s",
+        "timeout": "1s",
         "strategy": "freshness"
       }
     }
